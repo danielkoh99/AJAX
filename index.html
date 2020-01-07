@@ -11,11 +11,9 @@
 
 <body>
 
-    <!-- resource:  'http://www.omdbapi.com/?s=${keresoszo}&y={evszam}&apiKey=9606ae0f' -->
-
     <div class="main-header">
         <div class="inner">
-            <h1 class="main-title">MovieSearch</h1>
+            <h1 class="main-title">MovieDB</h1>
             <form class="search-form">
                 <label class="is-hidden" for="search">Search a title</label>
                 <input type="search" name="search" id="search" placeholder="Search a Title...">
@@ -29,12 +27,14 @@
 
     <div class="main-content clearfix">
         <span class="movie-count"></span>
-
+        <!-- <div class="lds-hourglass"></div> -->
 
         <ul id="movies" class="movie-list">
+
             <li class="desc">
                 <i class="material-icons icn-movie">movie</i> Search movie titles and TV shows
             </li>
+
         </ul>
     </div>
 
